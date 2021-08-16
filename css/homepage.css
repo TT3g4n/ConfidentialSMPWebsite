@@ -16,10 +16,11 @@ body {
   background-repeat: no-repeat;
   /* Fallback */
   background-color: rgb(59, 59, 59);
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .heading {
-  /* width: 99%; */
   font-size: 80px;
   padding-top: 50px;
   text-align: center;
@@ -42,6 +43,7 @@ body {
   position: absolute;
   top: 5px;
   left: 5px;
+  line-height: 50px;
 }
 
 .inside {
@@ -60,15 +62,5 @@ body {
 @media screen and (max-width: 500px) {
   .heading {
     font-size: 50px;
-  }
-
-  /* Change sidebar to a header */
-  .inside {
-    flex-direction: row;
-  }
-
-  /* Make the sidebar bigger for smaller screens */
-  .sidebar {
-    width: 96%;
   }
 }
