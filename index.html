@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/x-icon" href="SMP Icon.png" />
+    <script defer src="./js/sidebar.js"></script>
     <link
       rel="stylesheet"
       type="text/css"
@@ -15,10 +16,14 @@
   </head>
 
   <body>
-
     <h1 class="heading">Confidential SMP</h1>
 
-    <button class="sidebarbutton"></button>
+    <img
+      src="https://img.icons8.com/material-outlined/24/000000/sidebar-menu.png"
+      class="sidebarbutton"
+      id="sidebtn"
+      onclick="showSidebar()"
+    />
 
     <div id="sidebar" class="sidebar">
       <div class="inside">
@@ -26,6 +31,5 @@
         <a class="sideref" href="/map.html">Map</a>
       </div>
     </div>
-    
   </body>
 </html>
